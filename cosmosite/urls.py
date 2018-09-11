@@ -19,7 +19,7 @@ from django.urls import path
 
 urlpatterns = [
 #    path('', views.home),
+    path('CosmoZaBot/', include('cosmobot.urls')),
     path('admin/', admin.site.urls),
-#    path('CosmoZaBot/', include('cosmobot.urls')),
 ]
 
