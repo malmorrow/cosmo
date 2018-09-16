@@ -17,9 +17,10 @@ from django.contrib import admin
 from django.conf.urls import include
 from django.urls import path
 
+from cosmobot imort views
+
 urlpatterns = [
-#    path('', views.home),
-    path('CosmoZaBot/', include('cosmobot.urls')),
+    path('CosmoZaBot/', views.webhook, name='webhook'),
     path('admin/', admin.site.urls),
 ]
 
